@@ -1,0 +1,14 @@
+numpy
+pandas
+seaborn
+matplotlib
+-e .
+
+## ---> -e .
+# जब आप सिर्फ setup.py चलाओगे तो आपका project package बन जाएगा। लेकिन अगर आप चाहते हो कि requirements.txt install 
+# करते समय आपका project भी (packege bna) install हो, तो requirements.txt में -e . लिखना पड़ेगा। इससे pip अपने आप setup.py run करके
+#  project को install कर देगा (editable mode में)।
+
+# i can directly install this setup.py or what i can do is that i can do whneevr i am trying to install all this requirements.txt 
+# at that point of time the setup.py file shorld also run to build the packages so for enabling that,
+# what we need to do is that we will specifically right over here as -e . this will antomatically trigger setup.py file
