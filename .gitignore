@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore all Word documents
+*.docx
+
 # Distribution / packaging
 .Python
 build/
