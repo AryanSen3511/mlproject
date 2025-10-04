@@ -2,7 +2,10 @@ numpy
 pandas
 seaborn
 matplotlib
--e .
+scikit-learn
+catboost
+xgboost
+#-e .
 
 ## ---> -e .
 # जब आप सिर्फ setup.py चलाओगे तो आपका project package बन जाएगा। लेकिन अगर आप चाहते हो कि requirements.txt install 
